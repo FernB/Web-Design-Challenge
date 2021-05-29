@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pagey McPage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+ 
+        <link rel="stylesheet" href="style.css">
+
+</head>
+<body class = "body">
+
+<nav class="navbar navbar-light bg-light navbar-expand-lg">
+    <a href="index.html" class="navbar-brand h1 text-light">Latitude</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a href="plots.html" class="nav-link dropdown-toggle" data-toggle="dropdown"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+                    <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z"/>
+                  </svg> Plots</a>
+                <div class="dropdown-menu">
+                    <a href="temp.html" class="dropdown-item">Max Temperature</a>
+                    <a href="humidity.html" class="dropdown-item">Humidity</a>
+                    <a href="cloud.html" class="dropdown-item">Cloudiness</a>
+                    <a href="wind.html" class="dropdown-item">Wind Speed</a>                   
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link"> 
+                  
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid" viewBox="0 0 16 16">
+                    <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                  </svg>
+                  
+                  Comparison</a>
+                   
+            </li>
+            <li class="nav-item">
+                <a href="df.html" class="nav-link">        
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-table" viewBox="0 0 16 16">
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z"></path>
+                  </svg>
+                Data
+                
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</nav>
+
+<div class="container">
+    <div class="row justify-content-between">
+        <div class="col-md-7 col-sm-12 col-xs-12 bg-light">
+
+            <h2>Summary</h2>
+            <hr>
+            <img src="Fig4.png" alt="Lights" style="width:50%" class="mx-auto d-block">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, quam!</p>
+            
+
+        </div>
+
+        <div class="col-md-4 col-sm-12 bg-light">
+            <h2>Visuals</h2>
+            <hr>
+            <div class="row"> 
+                <div class="col-md-6  col-sm-3">
+                    <div class="thumbnail">
+                        <a href="temp.html">
+                            <img class="img-fluid hover-zoom" src="Fig4.png" alt="Lights" style="width:100%">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-3">
+                    <div class="thumbnail border border-primary">
+                        <a href="humidity.html">
+                            <img class="img-fluid" src="Fig4.png" alt="Lights" style="width:100%">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-3">
+                    <div class="thumbnail">
+                        <a href="cloud.html">
+                            <img class="img-fluid" src="Fig4.png" alt="Lights" style="width:100%">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-3">
+                    <div class="thumbnail">
+                        <a href="wind.html">
+                            <img class="img-fluid" src="Fig4.png" alt="Lights" style="width:100%">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
