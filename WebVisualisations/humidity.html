@@ -59,41 +59,40 @@
 <div class="container">
     <div class="row justify-content-between">
         <div class="col-md-7 col-sm-12 col-xs-12 bg-light">
-
-            <h2 class="pt-4">Humidity</h2>
+            <h2 class="p-3">Humidity</h2>
             <hr>
             <img src=".\Resources\assets\images\Fig2.png" alt="Lights" style="width:70%" class="mx-auto d-block">
-            <p class="mt-2">There didn't appear to be any significant relationship between humidity and proximity of a city to the equator. This may be use to the time of year the data was taken, there may be a greater observable difference during wet season. There also appears to be a cluster of southern hemisphere cities closer to the equator with higher humidities which warrents further investigation.</p>
+            <p class="p-3 mt-2">There didn't appear to be any significant relationship between humidity and proximity of a city to the equator. This may be use to the time of year the data was taken, there may be a greater observable difference during wet season. There also appears to be a cluster of southern hemisphere cities closer to the equator with higher humidities which warrents further investigation.</p>
             
 
         </div>
-
+        <!-- columns for thumbnails 4x4 on medium + and 1 row on small below -->
         <div class="col-md-4 col-sm-12 bg-light">
-            <h2 class="pt-4">Visualisations</h2>
+            <h2 class="p-3">Visualisations</h2>
             <hr>
-            <div class="row"> 
-                <div class="col-md-6  col-sm-3">
+            <div class="row justify-content-center"> 
+                <div class="col-md-6 col-sm-3 col-3">
                     <div class="thumbnail">
                         <a href="temp.html">
                             <img class="img-fluid" src=".\Resources\assets\images\Fig1.png" alt="Max Temperature" style="width:100%"  data-toggle="tooltip" data-placement="top" title="Max Temperature">
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-3">
+                <div class="col-md-6 col-sm-3 col-3">
                     <div class="thumbnail border border-primary">
                         <a href="humidity.html">
                             <img class="img-fluid" src=".\Resources\assets\images\Fig2.png" alt="Humidity" style="width:100%"  data-toggle="tooltip" data-placement="top" title="Humidity">
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-3">
+                <div class="col-md-6 col-sm-3 col-3">
                     <div class="thumbnail">
                         <a href="cloud.html">
                             <img class="img-fluid" src=".\Resources\assets\images\Fig3.png" alt="Cloudiness" style="width:100%"  data-toggle="tooltip" data-placement="top" title="Cloudiness">
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-3">
+                <div class="col-md-6 col-sm-3 col-3">
                     <div class="thumbnail">
                         <a href="wind.html">
                             <img class="img-fluid" src=".\Resources\assets\images\Fig4.png" alt="Wind Speed" style="width:100%" data-toggle="tooltip" data-placement="top" title="Wind Speed">
@@ -101,14 +100,19 @@
                     </div>
                 </div>
             </div>
+            <div class="row body h-50">
+
+            </div>
         </div>
     </div>
 </div>
 
+<!-- bootstrap js scripts -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+<!-- bootstrap tooltip script -->
 <script>
     $(document).ready(function(){
       $('[data-toggle="tooltip"]').tooltip();   

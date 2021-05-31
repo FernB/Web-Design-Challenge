@@ -1,8 +1,11 @@
 
+/* Makes body grey */
 .body {
     background-color: #DCDCDC;
   }  
-.container { 
+
+  /* adds padding and margins to container */
+ .container { 
   padding-top: 20px;
   margin-top: 20px;
   margin-bottom:20px;
@@ -12,13 +15,14 @@
 }
 
 
-
+/* Makes table header stick to top of page when scrolling */
 th {
   background: #f8f8f8;
   position: sticky;
   top: 45px;
 }
 
+/* Makes header text green */
 h1, h2 {
 color: rgb(44, 180, 139) !important;
 }
@@ -28,15 +32,18 @@ border: 2px;
 border-color: rgb(44, 180, 139) !important;
 
 }
+
+/* adds margin to table */
 .table {
   margin: 10px;
 }
 
-
+/* adds margin to thumbnail */
 .thumbnail {
   margin:5px;
 }
 
+/* Makes navbar brand look like a green button */
 .navbar-brand {
     padding:5px !important;
     margin-bottom: 0px !important;
@@ -44,39 +51,50 @@ border-color: rgb(44, 180, 139) !important;
     background-color:  rgb(44, 180, 139) !important; 
 }
 
+/* Media query */
 @media (max-width: 767px) {
+
+  /* make whole navbar green */
     .navbar-light.bg-light{
        background-color:  rgb(44, 180, 139) !important;
        margin:0px !important;
+       
      }
+
+     /* No padding to container*/
     .container {
-        margin: 0px !important;
-        padding:0px;
-        max-width: 100%;
-    }
-    .table {
-      border: 1px solid lightgray;
+        margin: 0px !important;  
+        padding:0px !important;
+        max-width: 100% !important;
+        overflow: auto !important;
     }
 
-    th {
-      background: #f8f8f8;
-      position: static;
+    /* adds border to table */
+    .table {
+      border: 1px solid lightgray !important;
   
     }
+    .dropdown-menu{
+      background-color:  rgb(122, 189, 169) !important;
+    }
+
+
+    /* stops sticky table header */
+    th {
+      background: #f8f8f8 !important;
+      position: static !important;
+
+    }
+    .body {
+      background-color: #f8f8f8 !important;
+    } 
+
   
 
    }
 
 
-   .tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-  }
+
   
   
 
-   /* @media screen and (max-width: 767px) {
-    .row.content {height: auto;
-  } } */
-  

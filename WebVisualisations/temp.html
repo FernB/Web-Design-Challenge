@@ -15,7 +15,7 @@
 
 <nav class="navbar navbar-light bg-light navbar-expand-lg">
     <a href="index.html" class="navbar-brand h1 text-light">Latitude</a>
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -59,47 +59,50 @@
 <div class="container">
     <div class="row justify-content-between">
         <div class="col-md-7 col-sm-12 col-xs-12 bg-light">
-            <h2 class="pt-4">Maximum Temperature</h2>
+            <h2 class="p-3">Maximum Temperature</h2>
             <hr>
             <img src=".\Resources\assets\images\Fig1.png" alt="Max Temperature" style="width:70%" class="mx-auto d-block">
-            <p class="mt-2">The maximum temperature increased as the latitude approched 0, that is approached the equator. This is due to the sun shining directly onto the equator through the earths complete orbit around the sun. The Northern Hemisphere cities had a much greater range of maximum temperatures (-2 to 103oF) and the Southern Hemisphere cities only had a minimum max temperature of 40oF. This is most likely due to the Northern Hemisphere having a greater amount of land mass (40% compared to 20% in the Southern Hemisphere) and a larger range of latitudes occupied (0 to 77.48 compared to 0 to -54.80) </p>
+            <p class="p-3 mt-2">The maximum temperature increased as the latitude approched 0, that is approached the equator. This is due to the sun shining directly onto the equator through the earths complete orbit around the sun. The Northern Hemisphere cities had a much greater range of maximum temperatures (-2 to 103oF) and the Southern Hemisphere cities only had a minimum max temperature of 40oF. This is most likely due to the Northern Hemisphere having a greater amount of land mass (40% compared to 20% in the Southern Hemisphere) and a larger range of latitudes occupied (0 to 77.48 compared to 0 to -54.80) </p>
         
             
 
         </div>
-
+        <!-- columns for thumbnails 4x4 on medium + and 1 row on small below -->
         <div class="col-md-4 col-sm-12 bg-light">
-            <h2 class="pt-4">Visualisations</h2>
+            <h2 class="p-3">Visualisations</h2>
             <hr>
-            <div class="row"> 
-                <div class="col-md-6  col-sm-3">
+            <div class="row justify-content-center"> 
+                <div class="col-md-6 col-sm-3 col-3">
                     <div class="thumbnail border border-primary">
                         <a href="temp.html">
                             <img class="img-fluid" src=".\Resources\assets\images\Fig1.png" alt="Max Temperature" style="width:100%" data-toggle="tooltip" data-placement="top" title="Max Temperature">
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-3">
+                <div class="col-md-6 col-sm-3 col-3">
                     <div class="thumbnail">
                         <a href="humidity.html">
                             <img class="img-fluid" src=".\Resources\assets\images\Fig2.png" alt="Humidity" style="width:100%" data-toggle="tooltip" data-placement="top" title="Humidity">
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-3">
+                <div class="col-md-6 col-sm-3 col-3">
                     <div class="thumbnail">
                         <a href="cloud.html">
                             <img class="img-fluid" src=".\Resources\assets\images\Fig3.png" alt="Cloudiness" style="width:100%" data-toggle="tooltip" data-placement="top" title="Cloudiness">
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-3">
+                <div class="col-md-6 col-sm-3 col-3">
                     <div class="thumbnail">
                         <a href="wind.html">
                             <img class="img-fluid" src=".\Resources\assets\images\Fig4.png" alt="Wind Speed" style="width:100%" data-toggle="tooltip" data-placement="top" title="Wind Speed">
                         </a>
                     </div>
                 </div>
+            </div>
+            <div class="row body h-50">
+
             </div>
         </div>
 
@@ -116,12 +119,13 @@
 
 
 
-
+<!-- bootstrap js scripts -->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+<!-- bootstrap tooltip script -->
 <script>
     $(document).ready(function(){
       $('[data-toggle="tooltip"]').tooltip();   
