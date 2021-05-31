@@ -66,7 +66,7 @@ A total of 7 pages were produced, the below chart outlines the structure:
 
 <br>
 
-![Sitemap](WebVisualisations\Resources\assets\images\Capture7.png)
+![Sitemap](Capture7.PNG)
  
 <br>
 
