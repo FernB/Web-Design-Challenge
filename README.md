@@ -65,7 +65,7 @@ A total of 7 pages were produced, the below chart outlines the structure:
 
 <br>
 
-![Sitemap](Capture7.png)
+![Sitemap](WebVisualisations\Resources\assets\images\Capture7.PNG)
  
 <br>
 
@@ -77,7 +77,7 @@ Landing Page:
 
 <br>
 
-![Landing Page](Capture1.png)
+![Landing Page](WebVisualisations\Resources\assets\images\Capture1.PNG)
  
 <br>
 
@@ -85,7 +85,7 @@ Landing Page on small screen:
 
 <br>
 
-![Landing Page small screen](Capture2.png)
+![Landing Page small screen](WebVisualisations\Resources\assets\images\Capture2.PNG)
  
 <br>
 
@@ -93,7 +93,7 @@ Example plot page with active page highlighted with blue border and tooltips on 
 
 <br>
 
-![plot example](Capture5.png)
+![plot example](WebVisualisations\Resources\assets\images\Capture5.PNG)
  
 <br>
 
@@ -101,12 +101,12 @@ Table is responsive on small screen and on large screen table header is sticky:
 
 <br>
 
-![table small](Capture6.png)
+![table small](WebVisualisations\Resources\assets\images\Capture6.PNG)
  
 <br>
 
 <br>
 
-![table large](Capture7.png)
+![table large](WebVisualisations\Resources\assets\images\Capture4.PNG)
  
 <br>
