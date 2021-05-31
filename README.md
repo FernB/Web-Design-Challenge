@@ -11,10 +11,10 @@ This is my submission for the Web Design Challenge Homework.
 		|_assets
 			|_images
 
-				|_Fig1
-				|_Fig2
-				|_Fig3
-				|_Fig4
+				|_Fig1.png
+				|_Fig2.png
+				|_Fig3.png
+				|_Fig4.png
 	|_cities.csv
 	|_cloud.html
 	|_comparison.html
@@ -27,13 +27,13 @@ This is my submission for the Web Design Challenge Homework.
 	|_wind.html
 |_.gitignore
 |_README.md
-|_Capture1
-|_Capture2
-|_Capture3
-|_Capture4
-|_Capture5
-|_Capture6
-|_Capture7
+|_Capture1.png
+|_Capture2.png
+|_Capture3.png
+|_Capture4.png
+|_Capture5.png
+|_Capture6.png
+|_Capture7.png
 
 
 
@@ -66,7 +66,7 @@ A total of 7 pages were produced, the below chart outlines the structure:
 
 <br>
 
-![Sitemap](WebVisualisations\Resources\assets\images\Capture7.PNG)
+![Sitemap](WebVisualisations\Resources\assets\images\Capture7.png)
  
 <br>
 
@@ -94,7 +94,7 @@ Example plot page with active page highlighted with blue border and tooltips on 
 
 <br>
 
-![plot example](Capture5.PNG)
+![plot example](Capture5.png)
  
 <br>
 
@@ -102,7 +102,7 @@ Table is responsive on small screen and on large screen table header is sticky:
 
 <br>
 
-![table small](Capture6.PNG)
+![table small](Capture6.png)
  
 <br>
 
