@@ -10,13 +10,7 @@ This is my submission for the Web Design Challenge Homework.
 	|_Resources
 		|_assets
 			|_images
-				|_Capture1
-				|_Capture2
-				|_Capture3
-				|_Capture4
-				|_Capture5
-				|_Capture6
-				|_Capture7
+
 				|_Fig1
 				|_Fig2
 				|_Fig3
@@ -33,6 +27,13 @@ This is my submission for the Web Design Challenge Homework.
 	|_wind.html
 |_.gitignore
 |_README.md
+|_Capture1
+|_Capture2
+|_Capture3
+|_Capture4
+|_Capture5
+|_Capture6
+|_Capture7
 
 
 
@@ -77,7 +78,7 @@ Landing Page:
 
 <br>
 
-![Landing Page](WebVisualisations\Resources\assets\images\Capture1.PNG)
+![Landing Page](Capture1.PNG)
  
 <br>
 
@@ -85,7 +86,7 @@ Landing Page on small screen:
 
 <br>
 
-![Landing Page small screen](WebVisualisations\Resources\assets\images\Capture2.PNG)
+![Landing Page small screen](Capture2.PNG)
  
 <br>
 
@@ -93,7 +94,7 @@ Example plot page with active page highlighted with blue border and tooltips on 
 
 <br>
 
-![plot example](WebVisualisations\Resources\assets\images\Capture5.PNG)
+![plot example](Capture5.PNG)
  
 <br>
 
@@ -101,12 +102,12 @@ Table is responsive on small screen and on large screen table header is sticky:
 
 <br>
 
-![table small](WebVisualisations\Resources\assets\images\Capture6.PNG)
+![table small](Capture6.PNG)
  
 <br>
 
 <br>
 
-![table large](WebVisualisations\Resources\assets\images\Capture4.PNG)
+![table large](Capture4.PNG)
  
 <br>
