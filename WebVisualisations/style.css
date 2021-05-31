@@ -55,7 +55,7 @@ border-color: rgb(44, 180, 139) !important;
 @media (max-width: 767px) {
 
   /* make whole navbar green */
-    .navbar-light.bg-light{
+    .navbar {
        background-color:  rgb(44, 180, 139) !important;
        margin:0px !important;
        
@@ -74,9 +74,12 @@ border-color: rgb(44, 180, 139) !important;
       border: 1px solid lightgray !important;
   
     }
-    .dropdown-menu{
-      background-color:  rgb(122, 189, 169) !important;
-    }
+    /* .navbar-collapse{
+      background-color:  rgb(223, 233, 230) !important;
+      padding: 2px;
+      margin: 0px;
+      border-radius: 4%;
+    } */
 
 
     /* stops sticky table header */
